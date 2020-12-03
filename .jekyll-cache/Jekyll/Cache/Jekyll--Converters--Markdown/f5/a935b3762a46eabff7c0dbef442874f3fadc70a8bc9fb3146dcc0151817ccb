@@ -1,0 +1,16 @@
+I"1<p>Some information about you!</p>
+
+<h3 id="more-information">More Information</h3>
+
+<p>A place to include any other types of information that you’d like to include about yourself.</p>
+
+<h3 id="contact-me">Contact me</h3>
+
+<p><a href="mailto:email@domain.com">email@domain.com</a></p>
+
+<h3 id="cv">CV</h3>
+<object data="https://victorbusque.github.io/_documents/CV_Victor_EN_30112020.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://victorbusque.github.io/_documents/CV_Victor_EN_30112020.pdf" />
+    &lt;/embed&gt;
+</object>
+:ET
