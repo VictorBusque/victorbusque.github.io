@@ -21,7 +21,7 @@ footer-links:
   email: victorbusque@gmail.com
   facebook:
   flickr:
-  github: barryclark/jekyll-now
+  github: VictorBusque
   instagram:
   linkedin: vbusque
   pinterest:
@@ -37,7 +37,7 @@ footer-links:
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: 255024483
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
