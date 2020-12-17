@@ -127,6 +127,17 @@ Si bien es raro porque tiene no conoce los signos de puntuación, queda patente 
 {: style="text-align: justify" }
 Es importante remarcar, que puesto que internet tiene tendencia a ser machista, sexista y racista, fácilmente los chistes resultantes lo son también, por lo que no me hago responsable si luego los chistes ofenden a alguien... 🙄🤷🏻‍♂️
 {: style="text-align: justify" }
+### Demo
+Disclaimer 1: Esto está desplegado como un contenedor de Docker en una app Heroku gratuita, puede que la ejecución sea lenta.
+{: style="text-align: justify" }
+Disclaimer 2: Como recordatorio, el modelo sólo sabe crear chistes en inglés, la frase de entrada debería estar en inglés también.
+{: style="text-align: justify" }
+<iframe id="ai-joker-demo"
+    title="AI-Joker Demo"
+    width="100%"
+    height="520px"
+    src="{{site.baseurl}}/demos/ai-joker/index.html">
+</iframe>
 ### Plug
 Si después de leer esto te ha parecido interesante, puedes echarle un vistazo al código fuente del proyecto, que tengo publicado en github [aquí](https://github.com/VictorBusque/AI-Joker). Consta de una parte de "Research" que está conformada por un Jupyter Notebook, y una parte de "Production" con un script mucho más definido para hacer pruebas.
 {: style="text-align: justify" }

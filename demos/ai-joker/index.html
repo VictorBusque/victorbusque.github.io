@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+            src="https://code.jquery.com/jquery-3.5.1.min.js"
+            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+
+    <title>AI-JOKER</title>
+</head>
+
+<body>
+    <div class="container">
+        <br/>
+        <h1>AI-JOKER</h1>
+        <form>
+            <div class="form-group">
+                <!-- <label for="explanation"><b>Proposals-NLG</b> es un sistema de generación de texto mediante Inteligencia Artificial basado en un modelo tipo <i>Massive Deep Learning</i>, parecido a otros de mercado como el famoso GPT-3 de OpenAI o Turing-NLG de Microsoft.</label>
+                <label>La particularidad de éste modelo es que ha aprendido de documentos propios elaborados por Raona, dentro del marco semántico y cognitivo de las propuestas de proyecto. Eso quiere decir que <i>"entiende"</i> el vocabulario y la forma del tipo de documentos con los que se le ha enseñado, y que es capaz de aplicar diferentes técnicas del lenguage natural sobre este ámbito. En éste caso, vamos a aplicar la generación de texto.</label>
+                <label>Para ver el algoritmo en acción, basta con introducir las primeras palabras de la frase en el campo de texto marcado como <i>Input</i>. El texto generado aparecerá a continuación en el campo <i>Output</i>. Mediante el botón <i>Continue ...</i> vamos a poder seguir generando nuevo texto a partir de la salida generada.</label>
+                <div style="margin-top: 20px;">
+                    <label>Algunos ejemplos:</label>
+                    <li><i>"En Raona"</i></li>
+                    <li><i>"Nuestras intranets"</i></li>
+                    <li><i>"La plataforma SharePoint Online"</i></li>
+                </div> -->
+            </div>
+            <br/>
+            <div class="form-group">
+                <label for="exampleText"><i>Entrada</i></label>
+                <textarea class="form-control" id="exampleText"
+                       aria-describedby="exampleTextHelp" style="height:120px; vertical-align: top;"
+                       placeholder="A man goes into"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="outputText"><i>Salida</i></label>
+                <span class="form-control" id="outputText"
+                      style="height: auto; min-height: 40px;"></span>
+                <button type="button" id="rerun" class="btn btn-outline-primary mt-2">RUN</button>
+                <button type="button" id="copyText" class="btn btn-outline-primary mt-2">Copiar y continuar</button>
+            </div>
+            <br/>
+            <br/>
+        </form>
+    </div>
+</body>
+
+</html>
